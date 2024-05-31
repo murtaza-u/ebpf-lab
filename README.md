@@ -5,6 +5,8 @@
 > `eBPF` program to drop the TCP packets on a port (def: 4040). The port
 > number is configurable from the userspace.
 
+![](./ethernet-frame.png)
+
 ```sh
 GOPROXY=direct go install github.com/murtaza-u/ebpf-lab/cmd/drop@latest
 drop -h
